@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=o8MAFOFc7H0
 Inside `.env` file you can add a new variable `STREAMS_WEBHOOK_URL`.
 
 ```shell .env
-STREAMS_WEBHOOK_URL = '/streams-webhook'
+STREAMS_WEBHOOK_URL = '/streams'
 ```
 
 Inside `index.ts` import `streamSync` plugin.
@@ -93,7 +93,7 @@ npm run start
 After staring your server you shoud see a similar message in your terminal. This will be the webwook url your would use to create a stream
 
 ```shell Terminal
-Moralis Server is running on port 1337 and stream webhook url https://23ae-5-12-44-202.ngrok.io/streams-webhook
+Moralis Server is running on port 1337 and stream webhook url https://23ae-5-12-44-202.ngrok.io/streams
 ```
 
 ## Step 2: Create a stream
@@ -102,6 +102,6 @@ To create a stream you can check the following docs [Create a stream using Admin
 
 You will have to provide your ngrok url that you got from the previous step.
 
-Paste your ngrok url <https://xxxx-xx-xx-xxxx.ngrok.io/streams-webhook>
+Paste your ngrok url <https://xxxx-xx-xx-xxxx.ngrok.io/streams>
 
 ![](/img/content/5330afb-Screenshot_2022-12-01_at_00.17.56.webp)
